@@ -1,0 +1,56 @@
+@import "../../App";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 35px;
+  padding: 20px;
+  z-index: 1;
+  font-family: $text-font;
+  font-size: 19px;
+
+  display: flex;
+  justify-content: space-between;
+  transition-timing-function: ease-in;
+  transition: all 0.7s;
+}
+
+.nav_color {
+  width: -webkit-fill-available;
+  background-color: rgba(247, 249, 251, 0.35);
+  backdrop-filter: blur(10px);
+  a {
+    color: #CBB508;
+  }
+}
+
+ul {
+  position: fixed;
+  margin-top: 20px;
+  right: 20px;
+
+  li {
+    display: inline;
+    text-align: center;
+
+    a {
+      padding: 10px;
+      text-decoration: none;
+      color: #f7b40d;
+    }
+    a:hover {
+      border-bottom: solid 1px whitesmoke;
+      box-shadow: 0px -10px 20px 10px rgba( 55, 55, 55, 0.3);
+    }
+  }
+}
+
+.logo {
+  position: fixed;
+  left: 0;
+  font-size: 24px;
+  margin-top: 12px;
+  margin-left: 20px;
+  text-decoration: none;
+}

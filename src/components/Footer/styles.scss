@@ -1,0 +1,29 @@
+
+.footer-container {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  margin: 5rem auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.legend {
+  margin: 3rem 0 2rem;
+  display: flex;
+  margin-top: 100px;
+
+  span {
+    margin: 0 auto;
+    color: transparent;
+    display: inline-block;
+  }
+
+  p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13.9px;
+    letter-spacing: -0.39px;
+    color: whitesmoke;
+  }
+}

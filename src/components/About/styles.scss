@@ -1,0 +1,26 @@
+@import "../../App";
+
+.about-content {
+  padding: 0 1rem;
+  margin: 0 auto;
+  align-items: center;
+
+  h1 {
+    color: honeydew;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+    margin: 1rem auto 0;
+    text-align: center;
+    font-family: $title-font;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    margin: 0.5rem auto 3rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: $text-font;
+    color: whitesmoke;
+  }
+}
