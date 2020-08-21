@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import logo from '../../assets/PistonLogo.png';
 import './styles.scss';
 
 export function Navbar() {
@@ -19,7 +20,9 @@ export function Navbar() {
 
   return (
     <nav className={`navbar ${show && "nav_color"}`}>
-      <a href="#home" className="logo">logo</a>
+      <a href="#home" className="logo">
+        <img src={logo} alt="logo" width="85" height="auto" />
+      </a>
       <ul className="main-nav" id="menu">
         <li><a href="#about">Nosotros</a></li>
         <li><a href="#services">Servicios</a></li>

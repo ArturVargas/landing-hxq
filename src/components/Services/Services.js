@@ -1,5 +1,7 @@
 import React from 'react';
-import taxi from '../../assets/taxi.jpg';
+import splunk from '../../assets/splunk.jpg';
+import bodyShop from '../../assets/body_shop.jpg';
+import restorations from '../../assets/restorations.jpg';
 import Card from '../Card/Card';
 import './styles.scss';
 
@@ -17,9 +19,9 @@ export function Services() {
         </div>
       </div>
       <div className="row">
-        <Card svcImage={taxi} header="Mecanica en General" description="Lorem ipsum dolor sit amet" />
-        <Card svcImage={taxi} header="Mecanica en General" description="blank" />
-        <Card svcImage={taxi} header="Mecanica en General" description="blank" />
+        <Card svcImage={splunk} header="Mecanica en General" />
+        <Card svcImage={bodyShop} header="Hojalatería y Pintura" />
+        <Card svcImage={restorations} header="Restauraciones" />
       </div>
     </div>
   )

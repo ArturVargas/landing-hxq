@@ -1,0 +1,22 @@
+{
+  "about": {
+    "title": "Classic Cars Huixquilucan",
+    "description": "Alta mecanica especializada, ofrecemos los mejores servicios con los más altos estándares de calidad. Con más de 20 años de experiencia en el area de restauración automotriz."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "description": "Dentro de nuestro catalogo de servicios ofrecemos: ",
+    "engineSystem": {
+      "title": "Mecanica en General",
+      "description": "Desde un cambio de aceite, hasta un ajuste de motor."
+    },
+    "bodyShop": {
+      "title": "Hojalatería y Pintura",
+      "description": "Reparación o Remplazo de autopartes de choque, Pulido, Encerado, Pintura y más."
+    },
+    "restorations": {
+      "title": "Restauraciones",
+      "description": "Restauración de Autos antiguos, servicio de localización y compra de partes originales"
+    }
+  }
+}

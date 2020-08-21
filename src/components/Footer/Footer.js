@@ -1,4 +1,5 @@
 import React from 'react';
+import vochito from '../../assets/CarLogo.png';
 import './styles.scss';
 
 export function Footer() {
@@ -6,7 +7,7 @@ export function Footer() {
     <div className="footer-container">
       <div className="legend">
         <span>
-          <img src="" alt="mini-logo"/>
+          <img src={vochito} alt="mini-logo" />
         </span>
         <p>
           Classic Cars Huixquilucan &#174;
