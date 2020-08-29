@@ -1,5 +1,6 @@
 import React from 'react';
 import whats from '../../assets/whatsapp.svg';
+import text from '../../copys.json';
 import './styles.scss';
 
 export function Contact() {
@@ -22,7 +23,7 @@ export function Contact() {
         </div>
         <div className="contactInfo">
           <div>
-            <a href="/">
+            <a href={`https://wa.me/${text.contact.contactPhone}/?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo`}>
               <img src={whats} alt="whats-logo" width="100" height="auto" />
             </a>
           </div>
