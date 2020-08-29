@@ -1,10 +1,26 @@
 
 .contact-container {
-  padding-bottom: 7rem;
-}
+  padding-bottom: 12rem;
+  margin: 10px 50px;
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center !important;
+  h2 {
+    margin: 0.5rem auto 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.5em;
+    color: whitesmoke;
+    padding-bottom: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center !important;
+  }
+
+  .contactInfo {
+    margin: 20px auto;
+    display: block;
+  }
 }
