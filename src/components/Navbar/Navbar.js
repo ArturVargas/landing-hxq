@@ -20,7 +20,7 @@ export function Navbar() {
 
   return (
     <nav className={`navbar ${show && "nav_color"}`}>
-      <a href="#home" className="logo">
+      <a href="/" className="logo">
         <img src={logo} alt="logo" width="85" height="auto" />
       </a>
       <ul className="main-nav" id="menu">

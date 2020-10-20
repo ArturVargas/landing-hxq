@@ -23,7 +23,7 @@ export function Contact() {
         </div>
         <div className="contactInfo">
           <div>
-            <a href={`https://wa.me/${text.contact.contactPhone}/?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo`}>
+            <a href={`https://wa.me/${text.contact.contactPhone}/?text=${text.contact.message}`}>
               <img src={whats} alt="whats-logo" width="100" height="auto" />
             </a>
           </div>

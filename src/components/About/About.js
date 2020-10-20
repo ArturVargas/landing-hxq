@@ -1,5 +1,6 @@
 import React from 'react';
 import vochito from '../../assets/CarLogo.png';
+import text from '../../copys.json';
 import './styles.scss';
 
 export function About() {
@@ -8,11 +9,9 @@ export function About() {
       <div className="car-logo">
         <img src={vochito} alt="logo_vochito" />
       </div>
-      <h1>Classic Cars Huixquilucan</h1>
+      <h1>{text.about.title}</h1>
       <h2>
-        Alta mecanica especializada, 
-        ofrecemos los mejores servicios con la más alta calidad.
-        Con más de 20 años de expericencia en el area de restauración automotriz.
+          {text.about.description}
       </h2>
     </div>
   )
